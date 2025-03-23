@@ -12,10 +12,6 @@
 - 合并临时文件，处理中断恢复（可选）。  
     **关键知识点**：
 
-'''// 示例：线程下载指定字节范围
-public void downloadChunk(int start, int end) {
-    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-    conn.setRequestProperty("Range", "bytes=" + start + "-" + end);
-    // 读取流并写入文件对应位置...
-}
-'''
+\`\`\`python
+print(“Hello, World!”)
+\`\`\`
